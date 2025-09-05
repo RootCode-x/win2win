@@ -1,0 +1,87 @@
+"use client";
+import Image from 'next/image'
+import Link from 'next/link'
+import React, { useEffect, useState } from 'react'
+import { IconAdjustmentsHorizontal, IconX } from "@tabler/icons-react";
+import Language from './Language';
+import SideNav from './SideNav';
+import NavItem from './NavItem';
+
+export default function HeaderMain() {
+    const [isCardExpanded, setIsCardExpanded] = useState(false);
+    const [isMiddleExpanded, setIsMiddleExpanded] = useState(false);
+
+    const toggleCard = () => {
+        setIsCardExpanded(!isCardExpanded);
+    };
+    const toggleMiddle = () => {
+        setIsMiddleExpanded(!isMiddleExpanded);
+    };
+
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (isCardExpanded && !event.target.closest(".navbar-toggler")) {
+                setIsCardExpanded(false);
+            }
+        };
+        document.body.addEventListener("click", handleClickOutside);
+        return () => {
+            document.body.removeEventListener("click", handleClickOutside);
+        };
+    }, [isCardExpanded]);
+    useEffect(() => {
+        const handleClickOutsideMiddle = (event) => {
+            if (isMiddleExpanded && !event.target.closest(".left-nav-icon")) {
+                setIsMiddleExpanded(false);
+            }
+        };
+
+        document.body.addEventListener("click", handleClickOutsideMiddle);
+        return () => {
+            document.body.removeEventListener("click", handleClickOutsideMiddle);
+        };
+    }, [isMiddleExpanded]);
+
+
+
+    return (
+        <>
+            <header className="header-section2 header-section">
+                <nav className="navbar navbar-expand-lg position-relative py-md-3 py-lg-6 workready">
+                    <div className={`collapse navbar-collapse justify-content-between  ${isCardExpanded ? "show" : "hide"}`} id="navbar-content">
+                        <ul
+                            className="navbar-nav2fixed  navbar-nav d-flex align-items-lg-center gap-4 gap-sm-5  py-2 py-lg-0 align-self-center p2-bg">
+                            <NavItem />
+                            <li className="dropdown show-dropdown d-block d-sm-none">
+                                <div className="d-flex align-items-center flex-wrap gap-3">
+                                    <Link href="/login" className="py-2 px-3 m-1 p1-color  y2-bg  rounded-2 "  >Login</Link>
+                                    {/* <Link href="/create-acount" className="cmn-btn px-xxl-11">Sign Up</Link> */}
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div className="right-area custom-pos position-relative d-flex gap-0 gap-lg-7 align-items-center me-5 me-xl-10">
+                        {/* <Language /> */}
+                        <Link href="/login" className="py-2 px-3 m-1 p1-color  y2-bg  rounded-2  w-100 d-none px-xxl-11 d-sm-block d-lg-none d-xl-block"  >Login</Link>
+                        {/* <Link href="/create-acount" className="cmn-btn d-none px-xxl-11 d-sm-block d-lg-none d-xl-block">Sign Up</Link> */}
+                    </div>
+                    <button onClick={toggleCard} className="navbar-toggler mt-1 mt-sm-2 mt-lg-0" type="button" data-bs-toggle="collapse" aria-label="Navbar Toggler"
+                        data-bs-target="#navbar-content" aria-expanded="true" id="nav-icon3">
+                        <span></span><span></span><span></span><span></span>
+                    </button>
+                </nav>
+                <div id="div10" className="navigation left-nav-area box3  position-fixed">
+                    <div
+                        className="logo-area slide-toggle3 trader-list position-fixed top-0 d-flex align-items-center justify-content-center pt-6 pt-md-8 gap-sm-4 gap-md-5 gap-lg-7 px-4 px-lg-8">
+                        <i className="ti ti-menu-deep left-nav-icon n8-color order-2 order-lg-0 d-none">
+                        </i>
+                        <Link className="navbar-brand d-center text-center gap-1 gap-lg-2 ms-lg-4" href="/">
+                          <Image className="logo" width={170} height={60} src="/images/providersnew/fastbet.png?V=2" alt="Logo" />
+                        </Link>
+                    </div>
+                </div>
+            </header>
+        </>
+    )
+}

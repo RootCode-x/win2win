@@ -1,0 +1,1724 @@
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/homePage/style.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+.style_image_div__oJCOR {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.style_image_top__Syepx {
+  background-color: #ff8a14;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.style_image_container__LK_nO {
+  max-width: 1000px;
+  margin: 10px auto;
+  display: none; /* Hide by default */
+}
+
+/* For mobile view */
+.style_image_containerMob__PLcDi {
+  display: block; /* Show for mobile */
+  margin-top: 20px;
+  padding-left: 8px;
+  background-color: green;
+}
+
+/* Styles for desktop */
+@media (min-width: 992px) {
+  .style_image_container__LK_nO {
+    display: block; /* Show for desktop */
+  }
+
+  .style_image_containerMob__PLcDi {
+    display: none; /* Hide for desktop */
+  }
+}
+
+/* Add this in a CSS file or a style tag */
+.style_content__URayy {
+  overflow: hidden;
+  height: 12rem; /* Adjust the height as needed */
+  transition: height 0.3s ease;
+}
+
+.style_expanded__Fdw6m {
+  height: auto;
+}
+
+.style_collapsed__V8XSQ {
+  height: 12rem; /* Collapsed height */
+}
+
+.style_toggleButton__9RAuo {
+  color: #007bff; /* Replace with your main color */
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  background: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0.5rem;
+}
+
+.style_toggleButton__9RAuo:hover {
+  color: #0056b3; /* Adjust hover color */
+}
+
+.style_button_div__wzIsO {
+  display: flex;
+  justify-content: center;
+}
+
+/* service style start here  */
+
+.style_service_img_div__FKP4b {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.style_serviceContainer__FSLut {
+  display: flex;
+  display: none;
+  align-items: center;
+  gap: 80px;
+  padding: 20px 10px;
+  border-bottom: rgb(48, 45, 45) 0.2px solid;
+}
+
+.style_serviceItem__9LhUj {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.style_textContent__cPyBN {
+  text-align: left;
+  margin-top: 30px;
+}
+
+.style_textContentEx__YL110 {
+  text-align: left;
+}
+.style_title__oxThf {
+  font-size: 16px;
+  color: #dedede;
+}
+
+.style_subtitle__awb0i {
+  font-size: 12px;
+  color: #999999;
+  margin: 0;
+}
+.style_title__oxThf,
+.style_subtitle__awb0i {
+  margin-bottom: 6px;
+}
+.style_button__YymCd {
+  font-size: 12px;
+}
+
+.style_button__YymCd:hover {
+  text-decoration: none;
+  color: #ff8a14;
+}
+
+.style_titleEx__ISb_8 {
+  font-size: 16px;
+  color: #dedede;
+}
+
+/* button style start here */
+
+.style_show_more_btn__lYMmA {
+  position: relative;
+  padding: 3px 18px;
+  background-color: #ffc107;
+  border: none;
+  border-radius: 4px;
+  color: black;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+}
+
+.style_show_more_btn__lYMmA:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.style_show_more_btn__lYMmA::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to right, #fbbf24, #fcd34d, #fbbf24);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.style_show_more_btn__lYMmA:hover::before {
+  opacity: 1;
+}
+
+.style_show_more_btn__lYMmA span {
+  position: relative;
+  z-index: 1;
+}
+
+.style_headerStyleTop__ySZLp {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  color: #dedede;
+  padding: 0 10px;
+}
+.style_headerStyle__1DmRE {
+  font-weight: bold;
+  font-size: 14px;
+  color: #999999;
+}
+
+.style_sectionStyle__ysCIM {
+  margin-bottom: 2rem;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #999999;
+}
+
+/* //-------------------------- */
+@media (min-width: 992px) {
+  .style_headerStyleTop__ySZLp {
+    padding: 0;
+  }
+  .style_serviceContainer__FSLut {
+    display: flex;
+  }
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/homePage/paymentStyle.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************/
+.paymentStyle_section__0kErw {
+  display: flex;
+  justify-content: flex-start;
+  gap: 60px;
+  margin-top: 40px;
+}
+
+.paymentStyle_title__i80mP {
+  font-size: 12px;
+  color: #ffffffcc;
+  margin-bottom: 10px;
+}
+
+.paymentStyle_image_row__QFNxy {
+  display: flex;
+  justify-content: flex-wrap;
+  gap: 15px;
+}
+
+.paymentStyle_image_wrapper__cajlu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.paymentStyle_mobilePaymentSection__dfWEu {
+  display: block;
+}
+.paymentStyle_desktopPaymentSection__ls0FZ {
+  display: none;
+}
+@media screen and (min-width: 992px) {
+  .paymentStyle_mobilePaymentSection__dfWEu {
+    display: none;
+  }
+  .paymentStyle_desktopPaymentSection__ls0FZ {
+    display: block;
+  }
+}
+
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/homePage/footer.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.footer_footerContainer___bwpb {
+  padding: 20px 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.footer_logoSection__mp40h {
+  margin-bottom: 15px;
+}
+
+.footer_textSection__dBACa {
+  font-size: 12px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  text-align: start;
+  color: #cccccc;
+  padding: 2px 4px;
+  word-spacing: 1px;
+}
+
+.footer_linksSection__LPS0k a {
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer_linksSection__LPS0k a:hover {
+  text-decoration: none;
+  color: #ff8a14;
+}
+
+.footer_copyrightSection__EWjes {
+  font-size: 14px;
+  color: #ffffff80;
+  text-align: right;
+}
+
+.footer_footerContainerForDesktop__h8MTA {
+  display: none;
+}
+@media (min-width: 992px) {
+  .footer_footerContainerForDesktop__h8MTA {
+    display: flex;
+  }
+
+  .footer_textSection__dBACa {
+    font-size: 13.5px;
+    padding: 0;
+  }
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/homePage/FooterLast.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+.FooterLast_mobile-nav__2qVm4 {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.FooterLast_nav-container__Dq5NB {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px;
+}
+
+.FooterLast_nav-item__ZkQrG {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 8px;
+  min-width: 64px;
+  text-decoration: none;
+  color: #9ca3af; /* Default muted color */
+  transition: color 0.2s ease;
+}
+
+.FooterLast_nav-item__ZkQrG:hover {
+  color: #ffffff;
+}
+
+.FooterLast_nav-item__ZkQrG.FooterLast_active__BJXDw {
+  color: #0ea5e9; /* Active/primary color - customize this */
+}
+
+.FooterLast_nav-icon__9uYxq {
+  width: 20px;
+  height: 20px;
+}
+
+.FooterLast_nav-label__E_V5U {
+  font-size: 12px;
+}
+
+/* Add padding to main content to prevent overlap */
+.FooterLast_main-content__PCdmO {
+  padding-bottom: 64px;
+}
+
+@media (min-width: 992px) {
+  .FooterLast_FooterLastForMobile__TZlRz {
+    display: none;
+  }
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/homePage/Favorite.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+@media (min-width: 992px) {
+  .Favorite_image_containerMob__MJfz9 {
+    display: none; /* Hide for desktop */
+  }
+}
+
+.Favorite_custom_scrollbar__l08Kq {
+  display: flex;
+  justify-content: flex-start;
+  gap: 8px;
+  overflow-x: auto; /* Enables horizontal scrolling */
+  overflow-y: hidden; /* Prevents vertical scrollbars */
+  white-space: nowrap; /* Prevents wrapping of items */
+  padding: 10px 0; /* Adds some spacing */
+
+  /* Slim and Stylish Scrollbar */
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #888 transparent; /* For Firefox */
+}
+
+.Favorite_custom_scrollbar__l08Kq::-webkit-scrollbar {
+  height: 2px; /* Adjust the height of the scrollbar */
+}
+
+.Favorite_custom_scrollbar__l08Kq::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners */
+}
+
+.Favorite_custom_scrollbar__l08Kq::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Darker color on hover */
+}
+
+.Favorite_custom_scrollbar__l08Kq::-webkit-scrollbar-track {
+  background: transparent; /* Transparent track */
+}
+
+.Favorite_item_container__tOo9C {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  flex-shrink: 0;
+}
+.Favorite_item_container__tOo9C:hover {
+  background-color: #1f2721;
+}
+.Favorite_item_label__waGkL {
+  font-size: 11px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.Favorite_subItems_grid__Gy0K7 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  grid-row-gap: 2px;
+  row-gap: 2px; /* Space between grid items */
+  background-color: #080808;
+  width: 308px;
+}
+
+.Favorite_sub_item_container__Z0IC5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer; /* Indicates clickable items */
+  background-color: #292927;
+
+  padding: 1px; /* Optional: Padding inside items */
+  width: 75px;
+  height: 75px;
+}
+
+.Favorite_sub_item_label__TIUP4 {
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/app/page.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+.page_bothFavorite__imcni {
+  background: #353432;
+  padding-left: 8px;
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/homePage/FavoritesGames.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************/
+@media (min-width: 992px) {
+  .FavoritesGames_favoriteGames__aVk78 {
+    display: none; /* Hide for desktop */
+  }
+}
+
+.FavoritesGames_custom_scrollbarX__k6eWQ {
+  display: flex;
+  justify-content: flex-start;
+  gap: 8px;
+  overflow-x: auto; /* Enables horizontal scrolling */
+  overflow-y: hidden; /* Prevents vertical scrollbars */
+  white-space: nowrap; /* Prevents wrapping of items */
+  padding: 10px 0; /* Adds some spacing */
+
+  /* Slim and Stylish Scrollbar */
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #888 transparent; /* For Firefox */
+}
+
+.FavoritesGames_custom_scrollbarX__k6eWQ::-webkit-scrollbar {
+  height: 2px; /* Adjust the height of the scrollbar */
+}
+
+.FavoritesGames_custom_scrollbarX__k6eWQ::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners */
+}
+
+.FavoritesGames_custom_scrollbarX__k6eWQ::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Darker color on hover */
+}
+
+.FavoritesGames_custom_scrollbarX__k6eWQ::-webkit-scrollbar-track {
+  background: transparent; /* Transparent track */
+}
+
+.FavoritesGames_item_containerX__0_sF7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+}
+.FavoritesGames_item_containerX__0_sF7:hover {
+  background-color: #1f2721;
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/Shared/headerMobile.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+.headerMobile_container__66DGq {
+  display: flex;
+  flex-direction: column;
+}
+
+.headerMobile_header___AgwI {
+  background-color: #080808;
+  color: white;
+  padding: 1rem;
+}
+
+.headerMobile_menuButton__ThqHM {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.headerMobile_title__xzadb {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Drawer Base Styles */
+
+/* Main Drawer Styles */
+.headerMobile_drawer__6daZm {
+  position: fixed;
+  top: 0;
+  height: 100%; /* Ensuring it takes full height of the screen */
+  width: 10rem;
+  background-color: #252424;
+  color: #ffffff;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+  overflow-y: auto; /* Allow scrolling for the main drawer */
+  z-index: 1000;
+}
+.headerMobile_drawerOpen__iD6cI {
+  transform: translateX(0);
+}
+
+.headerMobile_drawerClosed__EXsCn {
+  transform: translateX(-100%);
+}
+
+.headerMobile_drawerHeader__ohxOu {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+
+.headerMobile_closeButton__tPKK4 {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.headerMobile_drawerList___W1jn {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.headerMobile_drawerItem__nUTp9 {
+  border-bottom: 1px solid #4a5568;
+}
+
+.headerMobile_drawerItemMain__nPmC3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.headerMobile_subDrawerItemMain__JzDT3 {
+  padding: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.headerMobile_drawerItemMain__nPmC3:hover {
+  background-color: #353432;
+}
+
+.headerMobile_drawerItemLabel__V_fZ6 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Sub-Drawer Styles */
+.headerMobile_subDrawer__hWLkX {
+  position: fixed;
+  left: 60px;
+  top: 0;
+  height: 100%; /* Ensuring it takes full height of the screen */
+  width: 6rem;
+  background-color: #353432;
+  color: white;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+  z-index: 15;
+  overflow-y: auto; /* Allow scrolling for the sub drawer */
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/homePage/menuSlider.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+@media (min-width: 992px) {
+  .menuSlider_exclusive__tvvk6 {
+    display: none; /* Hide for desktop */
+  }
+}
+
+.menuSlider_custom_scrollbar__0BqQj {
+  display: flex;
+  justify-content: flex-start;
+  gap: 8px;
+  overflow-x: auto; /* Enables horizontal scrolling */
+  overflow-y: hidden; /* Prevents vertical scrollbars */
+  white-space: nowrap; /* Prevents wrapping of items */
+  padding: 10px 0; /* Adds some spacing */
+  background-color: #000000; /* Background color */
+
+  /* Slim and Stylish Scrollbar */
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #888 transparent; /* For Firefox */
+}
+
+.menuSlider_custom_scrollbar__0BqQj::-webkit-scrollbar {
+  height: 2px; /* Adjust the height of the scrollbar */
+}
+
+.menuSlider_custom_scrollbar__0BqQj::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners */
+}
+
+.menuSlider_custom_scrollbar__0BqQj::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Darker color on hover */
+}
+
+.menuSlider_custom_scrollbar__0BqQj::-webkit-scrollbar-track {
+  background: transparent; /* Transparent track */
+}
+
+.menuSlider_item_container__mO03O {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50px;
+  flex-shrink: 0;
+  padding: 10px 6px;
+}
+.menuSlider_item_container__mO03O:hover {
+  background-color: #1f2721;
+}
+.menuSlider_item_label__diMxu {
+  font-size: 11px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.menuSlider_subItems_grid__1fXb_ {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  grid-row-gap: 2px;
+  row-gap: 2px; /* Space between grid items */
+  background-color: #080808;
+  width: 308px;
+}
+
+.menuSlider_sub_item_container__WUnR8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer; /* Indicates clickable items */
+  background-color: #292927;
+
+  padding: 1px; /* Optional: Padding inside items */
+  width: 75px;
+  height: 75px;
+}
+
+.menuSlider_sub_item_label__GQty_ {
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./node_modules/swiper/swiper.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+/**
+ * Swiper 11.1.0
+ * Most modern mobile touch slider and framework with hardware accelerated transitions
+ * https://swiperjs.com
+ *
+ * Copyright 2014-2024 Vladimir Kharlampidi
+ *
+ * Released under the MIT License
+ *
+ * Released on: March 28, 2024
+ */
+
+/* FONT_START */
+@font-face {
+  font-family: 'swiper-icons';
+  src: url('data:application/font-woff;charset=utf-8;base64, d09GRgABAAAAAAZgABAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAAGRAAAABoAAAAci6qHkUdERUYAAAWgAAAAIwAAACQAYABXR1BPUwAABhQAAAAuAAAANuAY7+xHU1VCAAAFxAAAAFAAAABm2fPczU9TLzIAAAHcAAAASgAAAGBP9V5RY21hcAAAAkQAAACIAAABYt6F0cBjdnQgAAACzAAAAAQAAAAEABEBRGdhc3AAAAWYAAAACAAAAAj//wADZ2x5ZgAAAywAAADMAAAD2MHtryVoZWFkAAABbAAAADAAAAA2E2+eoWhoZWEAAAGcAAAAHwAAACQC9gDzaG10eAAAAigAAAAZAAAArgJkABFsb2NhAAAC0AAAAFoAAABaFQAUGG1heHAAAAG8AAAAHwAAACAAcABAbmFtZQAAA/gAAAE5AAACXvFdBwlwb3N0AAAFNAAAAGIAAACE5s74hXjaY2BkYGAAYpf5Hu/j+W2+MnAzMYDAzaX6QjD6/4//Bxj5GA8AuRwMYGkAPywL13jaY2BkYGA88P8Agx4j+/8fQDYfA1AEBWgDAIB2BOoAeNpjYGRgYNBh4GdgYgABEMnIABJzYNADCQAACWgAsQB42mNgYfzCOIGBlYGB0YcxjYGBwR1Kf2WQZGhhYGBiYGVmgAFGBiQQkOaawtDAoMBQxXjg/wEGPcYDDA4wNUA2CCgwsAAAO4EL6gAAeNpj2M0gyAACqxgGNWBkZ2D4/wMA+xkDdgAAAHjaY2BgYGaAYBkGRgYQiAHyGMF8FgYHIM3DwMHABGQrMOgyWDLEM1T9/w8UBfEMgLzE////P/5//f/V/xv+r4eaAAeMbAxwIUYmIMHEgKYAYjUcsDAwsLKxc3BycfPw8jEQA/gZBASFhEVExcQlJKWkZWTl5BUUlZRVVNXUNTQZBgMAAMR+E+gAEQFEAAAAKgAqACoANAA+AEgAUgBcAGYAcAB6AIQAjgCYAKIArAC2AMAAygDUAN4A6ADyAPwBBgEQARoBJAEuATgBQgFMAVYBYAFqAXQBfgGIAZIBnAGmAbIBzgHsAAB42u2NMQ6CUAyGW568x9AneYYgm4MJbhKFaExIOAVX8ApewSt4Bic4AfeAid3VOBixDxfPYEza5O+Xfi04YADggiUIULCuEJK8VhO4bSvpdnktHI5QCYtdi2sl8ZnXaHlqUrNKzdKcT8cjlq+rwZSvIVczNiezsfnP/uznmfPFBNODM2K7MTQ45YEAZqGP81AmGGcF3iPqOop0r1SPTaTbVkfUe4HXj97wYE+yNwWYxwWu4v1ugWHgo3S1XdZEVqWM7ET0cfnLGxWfkgR42o2PvWrDMBSFj/IHLaF0zKjRgdiVMwScNRAoWUoH78Y2icB/yIY09An6AH2Bdu/UB+yxopYshQiEvnvu0dURgDt8QeC8PDw7Fpji3fEA4z/PEJ6YOB5hKh4dj3EvXhxPqH/SKUY3rJ7srZ4FZnh1PMAtPhwP6fl2PMJMPDgeQ4rY8YT6Gzao0eAEA409DuggmTnFnOcSCiEiLMgxCiTI6Cq5DZUd3Qmp10vO0LaLTd2cjN4fOumlc7lUYbSQcZFkutRG7g6JKZKy0RmdLY680CDnEJ+UMkpFFe1RN7nxdVpXrC4aTtnaurOnYercZg2YVmLN/d/gczfEimrE/fs/bOuq29Zmn8tloORaXgZgGa78yO9/cnXm2BpaGvq25Dv9S4E9+5SIc9PqupJKhYFSSl47+Qcr1mYNAAAAeNptw0cKwkAAAMDZJA8Q7OUJvkLsPfZ6zFVERPy8qHh2YER+3i/BP83vIBLLySsoKimrqKqpa2hp6+jq6RsYGhmbmJqZSy0sraxtbO3sHRydnEMU4uR6yx7JJXveP7WrDycAAAAAAAH//wACeNpjYGRgYOABYhkgZgJCZgZNBkYGLQZtIJsFLMYAAAw3ALgAeNolizEKgDAQBCchRbC2sFER0YD6qVQiBCv/H9ezGI6Z5XBAw8CBK/m5iQQVauVbXLnOrMZv2oLdKFa8Pjuru2hJzGabmOSLzNMzvutpB3N42mNgZGBg4GKQYzBhYMxJLMlj4GBgAYow/P/PAJJhLM6sSoWKfWCAAwDAjgbRAAB42mNgYGBkAIIbCZo5IPrmUn0hGA0AO8EFTQAA');
+  font-weight: 400;
+  font-style: normal;
+}
+/* FONT_END */
+:root {
+  --swiper-theme-color: #007aff;
+  /*
+  --swiper-preloader-color: var(--swiper-theme-color);
+  --swiper-wrapper-transition-timing-function: initial;
+  */
+}
+:host {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+}
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  /* Fix of Webkit flickering */
+  z-index: 1;
+  display: block;
+}
+.swiper-vertical > .swiper-wrapper {
+  flex-direction: column;
+}
+.swiper-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  transition-property: transform;
+  transition-timing-function: var(--swiper-wrapper-transition-timing-function, initial);
+  box-sizing: content-box;
+}
+.swiper-android .swiper-slide,
+.swiper-ios .swiper-slide,
+.swiper-wrapper {
+  transform: translate3d(0px, 0, 0);
+}
+.swiper-horizontal {
+  touch-action: pan-y;
+}
+.swiper-vertical {
+  touch-action: pan-x;
+}
+.swiper-slide {
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition-property: transform;
+  display: block;
+}
+.swiper-slide-invisible-blank {
+  visibility: hidden;
+}
+/* Auto Height */
+.swiper-autoheight,
+.swiper-autoheight .swiper-slide {
+  height: auto;
+}
+.swiper-autoheight .swiper-wrapper {
+  align-items: flex-start;
+  transition-property: transform, height;
+}
+.swiper-backface-hidden .swiper-slide {
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+/* 3D Effects */
+.swiper-3d.swiper-css-mode .swiper-wrapper {
+  perspective: 1200px;
+}
+.swiper-3d .swiper-wrapper {
+  transform-style: preserve-3d;
+}
+.swiper-3d {
+  perspective: 1200px;
+}
+.swiper-3d .swiper-slide,
+.swiper-3d .swiper-cube-shadow {
+  transform-style: preserve-3d;
+}
+/* CSS Mode */
+.swiper-css-mode > .swiper-wrapper {
+  overflow: auto;
+  scrollbar-width: none;
+  /* For Firefox */
+  -ms-overflow-style: none;
+  /* For Internet Explorer and Edge */
+}
+.swiper-css-mode > .swiper-wrapper::-webkit-scrollbar {
+  display: none;
+}
+.swiper-css-mode > .swiper-wrapper > .swiper-slide {
+  scroll-snap-align: start start;
+}
+.swiper-css-mode.swiper-horizontal > .swiper-wrapper {
+  scroll-snap-type: x mandatory;
+}
+.swiper-css-mode.swiper-vertical > .swiper-wrapper {
+  scroll-snap-type: y mandatory;
+}
+.swiper-css-mode.swiper-free-mode > .swiper-wrapper {
+  scroll-snap-type: none;
+}
+.swiper-css-mode.swiper-free-mode > .swiper-wrapper > .swiper-slide {
+  scroll-snap-align: none;
+}
+.swiper-css-mode.swiper-centered > .swiper-wrapper::before {
+  content: '';
+  flex-shrink: 0;
+  order: 9999;
+}
+.swiper-css-mode.swiper-centered > .swiper-wrapper > .swiper-slide {
+  scroll-snap-align: center center;
+  scroll-snap-stop: always;
+}
+.swiper-css-mode.swiper-centered.swiper-horizontal > .swiper-wrapper > .swiper-slide:first-child {
+  -webkit-margin-start: var(--swiper-centered-offset-before);
+          margin-inline-start: var(--swiper-centered-offset-before);
+}
+.swiper-css-mode.swiper-centered.swiper-horizontal > .swiper-wrapper::before {
+  height: 100%;
+  min-height: 1px;
+  width: var(--swiper-centered-offset-after);
+}
+.swiper-css-mode.swiper-centered.swiper-vertical > .swiper-wrapper > .swiper-slide:first-child {
+  -webkit-margin-before: var(--swiper-centered-offset-before);
+          margin-block-start: var(--swiper-centered-offset-before);
+}
+.swiper-css-mode.swiper-centered.swiper-vertical > .swiper-wrapper::before {
+  width: 100%;
+  min-width: 1px;
+  height: var(--swiper-centered-offset-after);
+}
+/* Slide styles start */
+/* 3D Shadows */
+.swiper-3d .swiper-slide-shadow,
+.swiper-3d .swiper-slide-shadow-left,
+.swiper-3d .swiper-slide-shadow-right,
+.swiper-3d .swiper-slide-shadow-top,
+.swiper-3d .swiper-slide-shadow-bottom,
+.swiper-3d .swiper-slide-shadow,
+.swiper-3d .swiper-slide-shadow-left,
+.swiper-3d .swiper-slide-shadow-right,
+.swiper-3d .swiper-slide-shadow-top,
+.swiper-3d .swiper-slide-shadow-bottom {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 10;
+}
+.swiper-3d .swiper-slide-shadow {
+  background: rgba(0, 0, 0, 0.15);
+}
+.swiper-3d .swiper-slide-shadow-left {
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+.swiper-3d .swiper-slide-shadow-right {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+.swiper-3d .swiper-slide-shadow-top {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+.swiper-3d .swiper-slide-shadow-bottom {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+.swiper-lazy-preloader {
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -21px;
+  margin-top: -21px;
+  z-index: 10;
+  transform-origin: 50%;
+  box-sizing: border-box;
+  border: 4px solid var(--swiper-preloader-color, var(--swiper-theme-color));
+  border-radius: 50%;
+  border-top-color: transparent;
+}
+.swiper:not(.swiper-watch-progress) .swiper-lazy-preloader,
+.swiper-watch-progress .swiper-slide-visible .swiper-lazy-preloader {
+  animation: swiper-preloader-spin 1s infinite linear;
+}
+.swiper-lazy-preloader-white {
+  --swiper-preloader-color: #fff;
+}
+.swiper-lazy-preloader-black {
+  --swiper-preloader-color: #000;
+}
+@keyframes swiper-preloader-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* Slide styles end */
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./node_modules/swiper/modules/pagination.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************/
+:root {
+  /*
+  --swiper-pagination-color: var(--swiper-theme-color);
+  --swiper-pagination-left: auto;
+  --swiper-pagination-right: 8px;
+  --swiper-pagination-bottom: 8px;
+  --swiper-pagination-top: auto;
+  --swiper-pagination-fraction-color: inherit;
+  --swiper-pagination-progressbar-bg-color: rgba(0,0,0,0.25);
+  --swiper-pagination-progressbar-size: 4px;
+  --swiper-pagination-bullet-size: 8px;
+  --swiper-pagination-bullet-width: 8px;
+  --swiper-pagination-bullet-height: 8px;
+  --swiper-pagination-bullet-border-radius: 50%;
+  --swiper-pagination-bullet-inactive-color: #000;
+  --swiper-pagination-bullet-inactive-opacity: 0.2;
+  --swiper-pagination-bullet-opacity: 1;
+  --swiper-pagination-bullet-horizontal-gap: 4px;
+  --swiper-pagination-bullet-vertical-gap: 6px;
+  */
+}
+.swiper-pagination {
+  position: absolute;
+  text-align: center;
+  transition: 300ms opacity;
+  transform: translate3d(0, 0, 0);
+  z-index: 10;
+}
+.swiper-pagination.swiper-pagination-hidden {
+  opacity: 0;
+}
+.swiper-pagination-disabled > .swiper-pagination,
+.swiper-pagination.swiper-pagination-disabled {
+  display: none !important;
+}
+/* Common Styles */
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: var(--swiper-pagination-bottom, 8px);
+  top: var(--swiper-pagination-top, auto);
+  left: 0;
+  width: 100%;
+}
+/* Bullets */
+.swiper-pagination-bullets-dynamic {
+  overflow: hidden;
+  font-size: 0;
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+  transform: scale(0.33);
+  position: relative;
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active {
+  transform: scale(1);
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-main {
+  transform: scale(1);
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev {
+  transform: scale(0.66);
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev-prev {
+  transform: scale(0.33);
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next {
+  transform: scale(0.66);
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next-next {
+  transform: scale(0.33);
+}
+.swiper-pagination-bullet {
+  width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 8px));
+  height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 8px));
+  display: inline-block;
+  border-radius: var(--swiper-pagination-bullet-border-radius, 50%);
+  background: var(--swiper-pagination-bullet-inactive-color, #000);
+  opacity: var(--swiper-pagination-bullet-inactive-opacity, 0.2);
+}
+button.swiper-pagination-bullet {
+  border: none;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  -webkit-appearance: none;
+          -moz-appearance: none;
+       appearance: none;
+}
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  cursor: pointer;
+}
+.swiper-pagination-bullet:only-child {
+  display: none !important;
+}
+.swiper-pagination-bullet-active {
+  opacity: var(--swiper-pagination-bullet-opacity, 1);
+  background: var(--swiper-pagination-color, var(--swiper-theme-color));
+}
+.swiper-vertical > .swiper-pagination-bullets,
+.swiper-pagination-vertical.swiper-pagination-bullets {
+  right: var(--swiper-pagination-right, 8px);
+  left: var(--swiper-pagination-left, auto);
+  top: 50%;
+  transform: translate3d(0px, -50%, 0);
+}
+.swiper-vertical > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-vertical.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: var(--swiper-pagination-bullet-vertical-gap, 6px) 0;
+  display: block;
+}
+.swiper-vertical > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic,
+.swiper-pagination-vertical.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px;
+}
+.swiper-vertical > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet,
+.swiper-pagination-vertical.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+  display: inline-block;
+  transition: 200ms transform,
+        200ms top;
+}
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 4px);
+}
+.swiper-horizontal > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic,
+.swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+.swiper-horizontal > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+  transition: 200ms transform,
+        200ms left;
+}
+.swiper-horizontal.swiper-rtl > .swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+  transition: 200ms transform,
+    200ms right;
+}
+/* Fraction */
+.swiper-pagination-fraction {
+  color: var(--swiper-pagination-fraction-color, inherit);
+}
+/* Progress */
+.swiper-pagination-progressbar {
+  background: var(--swiper-pagination-progressbar-bg-color, rgba(0, 0, 0, 0.25));
+  position: absolute;
+}
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+  background: var(--swiper-pagination-color, var(--swiper-theme-color));
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  transform-origin: left top;
+}
+.swiper-rtl .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+  transform-origin: right top;
+}
+.swiper-horizontal > .swiper-pagination-progressbar,
+.swiper-pagination-progressbar.swiper-pagination-horizontal,
+.swiper-vertical > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite,
+.swiper-pagination-progressbar.swiper-pagination-vertical.swiper-pagination-progressbar-opposite {
+  width: 100%;
+  height: var(--swiper-pagination-progressbar-size, 4px);
+  left: 0;
+  top: 0;
+}
+.swiper-vertical > .swiper-pagination-progressbar,
+.swiper-pagination-progressbar.swiper-pagination-vertical,
+.swiper-horizontal > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite,
+.swiper-pagination-progressbar.swiper-pagination-horizontal.swiper-pagination-progressbar-opposite {
+  width: var(--swiper-pagination-progressbar-size, 4px);
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.swiper-pagination-lock {
+  display: none;
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./node_modules/swiper/modules/navigation.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************/
+:root {
+  --swiper-navigation-size: 44px;
+  /*
+  --swiper-navigation-top-offset: 50%;
+  --swiper-navigation-sides-offset: 10px;
+  --swiper-navigation-color: var(--swiper-theme-color);
+  */
+}
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  top: var(--swiper-navigation-top-offset, 50%);
+  width: calc(var(--swiper-navigation-size) / 44 * 27);
+  height: var(--swiper-navigation-size);
+  margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--swiper-navigation-color, var(--swiper-theme-color));
+}
+.swiper-button-prev.swiper-button-disabled,
+.swiper-button-next.swiper-button-disabled {
+  opacity: 0.35;
+  cursor: auto;
+  pointer-events: none;
+}
+.swiper-button-prev.swiper-button-hidden,
+.swiper-button-next.swiper-button-hidden {
+  opacity: 0;
+  cursor: auto;
+  pointer-events: none;
+}
+.swiper-navigation-disabled .swiper-button-prev,
+.swiper-navigation-disabled .swiper-button-next {
+  display: none !important;
+}
+.swiper-button-prev svg,
+.swiper-button-next svg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transform-origin: center;
+}
+.swiper-rtl .swiper-button-prev svg,
+.swiper-rtl .swiper-button-next svg {
+  transform: rotate(180deg);
+}
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  left: var(--swiper-navigation-sides-offset, 10px);
+  right: auto;
+}
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  right: var(--swiper-navigation-sides-offset, 10px);
+  left: auto;
+}
+.swiper-button-lock {
+  display: none;
+}
+/* Navigation font start */
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-family: swiper-icons;
+  font-size: var(--swiper-navigation-size);
+  text-transform: none !important;
+  letter-spacing: 0;
+  font-feature-settings: ;
+  font-variant: initial;
+  line-height: 1;
+}
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  content: 'prev';
+}
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  right: var(--swiper-navigation-sides-offset, 10px);
+  left: auto;
+}
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  content: 'next';
+}
+/* Navigation font end */
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/Pages/Home/slide_custom.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************/
+.slide_custom_hero_area__main__ICGnU {
+  margin: 0 0px 0px 00px;
+}
+
+/* Styles for desktop */
+@media (min-width: 992px) {
+  .slide_custom_hero_area__main__ICGnU {
+    margin: 0 0px 00px 0px;
+  }
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/Pages/Home/Marquee.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************/
+/* components/Marquee.module.css */
+.Marquee_marquee__LE4Ei {
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  background-color: #080808;
+  color: white;
+
+  display: flex;
+  align-items: center;
+}
+.Marquee_iconStyle__VZBCi {
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 10px;
+  color: #ff8a14;
+}
+
+.Marquee_marqueeContent__0Twpj {
+  display: inline-block;
+  padding-left: 100%;
+  font-weight: bold;
+  animation: Marquee_marquee__LE4Ei 25s linear infinite;
+  font-size: 15px;
+}
+
+.Marquee_marquee__LE4Ei:hover .Marquee_marqueeContent__0Twpj {
+  animation-play-state: paused;
+}
+
+@keyframes Marquee_marquee__LE4Ei {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.Marquee_icon__hKMJE {
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+
+.Marquee_icon__hKMJE img {
+  width: 4px; /* Adjust size as needed */
+  height: 4px; /* Adjust size as needed */
+  background-size: cover;
+}
+
+@media screen and (min-width: 992px) {
+  .Marquee_marquee__LE4Ei {
+    padding: 5px 0;
+  }
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./node_modules/swiper/modules/scrollbar.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+:root {
+  /*
+  --swiper-scrollbar-border-radius: 10px;
+  --swiper-scrollbar-top: auto;
+  --swiper-scrollbar-bottom: 4px;
+  --swiper-scrollbar-left: auto;
+  --swiper-scrollbar-right: 4px;
+  --swiper-scrollbar-sides-offset: 1%;
+  --swiper-scrollbar-bg-color: rgba(0, 0, 0, 0.1);
+  --swiper-scrollbar-drag-bg-color: rgba(0, 0, 0, 0.5);
+  --swiper-scrollbar-size: 4px;
+  */
+}
+.swiper-scrollbar {
+  border-radius: var(--swiper-scrollbar-border-radius, 10px);
+  position: relative;
+  touch-action: none;
+  background: var(--swiper-scrollbar-bg-color, rgba(0, 0, 0, 0.1));
+}
+.swiper-scrollbar-disabled > .swiper-scrollbar,
+.swiper-scrollbar.swiper-scrollbar-disabled {
+  display: none !important;
+}
+.swiper-horizontal > .swiper-scrollbar,
+.swiper-scrollbar.swiper-scrollbar-horizontal {
+  position: absolute;
+  left: var(--swiper-scrollbar-sides-offset, 1%);
+  bottom: var(--swiper-scrollbar-bottom, 4px);
+  top: var(--swiper-scrollbar-top, auto);
+  z-index: 50;
+  height: var(--swiper-scrollbar-size, 4px);
+  width: calc(100% - 2 * var(--swiper-scrollbar-sides-offset, 1%));
+}
+.swiper-vertical > .swiper-scrollbar,
+.swiper-scrollbar.swiper-scrollbar-vertical {
+  position: absolute;
+  left: var(--swiper-scrollbar-left, auto);
+  right: var(--swiper-scrollbar-right, 4px);
+  top: var(--swiper-scrollbar-sides-offset, 1%);
+  z-index: 50;
+  width: var(--swiper-scrollbar-size, 4px);
+  height: calc(100% - 2 * var(--swiper-scrollbar-sides-offset, 1%));
+}
+.swiper-scrollbar-drag {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: var(--swiper-scrollbar-drag-bg-color, rgba(0, 0, 0, 0.5));
+  border-radius: var(--swiper-scrollbar-border-radius, 10px);
+  left: 0;
+  top: 0;
+}
+.swiper-scrollbar-cursor-drag {
+  cursor: move;
+}
+.swiper-scrollbar-lock {
+  display: none;
+}
+
+/*!******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/Pages/Home/casinocss.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************/
+    .casinocss_slotPlayButton__jlCwm {
+        width: 100%;
+        height: 40px;
+        color: #fff;
+        border-radius: 5px;
+        padding: 10px 25px;
+        font-weight: 500;  
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+        outline: none; 
+        background: linear-gradient(0deg, rgb(5 50 38) 0%, rgb(53 195 30) 100%);
+        border: none;
+      }
+      
+      .casinocss_slotPlayButton__jlCwm:hover {
+        box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5), -4px -4px 6px 0 rgba(116, 125, 136, .5), inset -4px -4px 6px 0 rgba(255,255,255,.2), inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+      }
+      
+      .casinocss_slotDemoButton__NW1Qc {
+        width: 100%;
+        height: 40px;
+        color: #fff;
+        border-radius: 5px;
+        padding: 10px 25px;
+        font-weight: 500;  
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+        outline: none; 
+        background: linear-gradient(0deg, rgb(55 24 76) 0%, rgb(32 69 151) 100%);
+        border: none;
+      }
+      
+      .casinocss_slotDemoButton__NW1Qc:hover {
+        box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5), -4px -4px 6px 0 rgba(116, 125, 136, .5), inset -4px -4px 6px 0 rgba(255,255,255,.2), inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+      }
+      
+      /*    pill button for game list and scrollable start here */
+      
+      .casinocss_search-container__9iwSv {
+        text-align: center;
+        margin-bottom: 10px;
+        position: relative;
+        overflow: hidden;
+      }
+      
+      .casinocss_search-icon__E2KjT {
+        display: inline-block;
+        cursor: pointer;
+        position: absolute;
+        top: 8px;
+        left: 8px;
+        z-index: 1;
+        transition: left 0.3s ease-in-out;
+      }
+      
+      #casinocss_searchIcon__nkt7E img {
+        width: 20px;
+        height: 20px;
+      }
+      
+      .casinocss_search-input-container__WmiyP {
+        display: inline-block;
+        position: relative;
+        transition: left 0.3s ease-in-out;
+      }
+      
+      #casinocss_searchInput___9n1b {
+        visibility: hidden;
+        border: 1px solid #ccc;
+        border-radius: 20px;
+        width: 0;
+        overflow: hidden;
+        outline: none;
+        color: black;
+        transition: width 0.3s ease-in-out;
+      }
+      
+      #casinocss_searchButton__L_Olg {
+        display: none;
+        background-color: #7A06F0;
+        color: #fff;
+        font-size: 14px;
+        padding: 5px 10px;
+        margin-left: 5px;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        outline: none;
+      }
+      
+      #casinocss_searchInputContainer__m_102.casinocss_active__7CgR2 #casinocss_searchInput___9n1b {
+        padding: 5px;
+        width: 200px;
+        visibility: visible;
+      }
+      
+      #casinocss_searchInputContainer__m_102.casinocss_active__7CgR2 #casinocss_searchButton__L_Olg {
+        display: inline-block;
+      }
+      
+      .casinocss_scrollableContainer__q828O {
+        width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+        background-color: #f2f2f200;
+        scrollbar-width: thin;
+	      scrollbar-color: #888 #f1f1f1;
+      }
+      
+      .casinocss_pillButtons__OyI6Q {
+        display: inline-block;
+        background-color: #fff0;
+        border-radius: 25px;
+        padding: 00px;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+      }
+      
+      .casinocss_pillButton__KYYyE {
+        display: inline-block;
+        background-color: #7A06F000;
+        color: #fff;
+        font-size: 14px;
+        padding: 5px 10px;
+        margin: 5px;
+        border-radius: 20px;
+        cursor: pointer;
+        border: 1px solid #323030;   
+        transition: background-color 0.2s ease-in-out;
+      }
+      
+      .casinocss_pillButton__KYYyE:hover {
+        background-color:#7A06F0;
+      }
+      
+      .casinocss_pillButton__KYYyE:active {
+        background-color:#442861;
+      }
+      
+      .casinocss_cardImage__BZzpw {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+    
+      .casinocss_cardOverlay__UkyIn {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 0;
+       
+        background: linear-gradient( to top, rgb(151 95 95 / 0%), rgb(8,15,37,1) );
+        transition: height 0.3s, opacity 0.3s;
+        opacity: 0;
+      }
+    
+      .casinocss_custom_card__gPzJ9:hover .casinocss_cardOverlay__UkyIn {
+        height: 100%;
+        opacity: 1;
+      }
+    
+      .casinocss_playButton__db6s3 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10px 20px;     
+        color: #000000;
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        border-radius: 5px;
+      }
+    
+ 
+      /* =============================Table============================================ */
+
+      .casinocss_custom_card__gPzJ9 {
+        position: relative;
+        margin-bottom: 10px;
+        padding: 7px;
+        
+      }
+
+      /* Styles for mobile view */
+      @media (max-width: 767px) {
+        .casinocss_custom_card__gPzJ9 {
+          padding-left: 10px;
+        }
+        
+        .casinocss_custom_card__gPzJ9:nth-child(2n) {
+          margin-right: 0;
+        }
+        
+        .casinocss_card-container__1eYtS {
+          justify-content: flex-start;
+        }
+      }
+
+      /* General styles */
+      .casinocss_title__wtuxY {
+        font-size: 15px;
+        text-align: left;
+      }
+
+
+      .casinocss_navtabBgTitle__0Z2CC {
+        font-size: 18px;
+      }
+
+      .casinocss_navtabBgcolor__VOWf_{
+        /* background: linear-gradient(151deg, rgba(8, 15, 37, 1) 0%, rgb(107 117 26) 100%); */
+        background: #111111;
+      }
+
+
+     /* ============================  PAGINATION CSS ==============================*/
+
+      .casinocss_pagination__J8zoP {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 20px;
+       }
+      
+      .casinocss_prevNextBtn__GCpnl, .casinocss_pageBtn__H2Z40 {
+          border: none;
+          padding: 1px 5px;
+          cursor: pointer;
+          border-radius: 5px;
+          background-color: white;
+          color: black;
+      }
+      
+      .casinocss_pageBtn__H2Z40.casinocss_active__7CgR2 {
+          background-color: #04b7fa;
+          color: black;
+      }
+      
+      .casinocss_prevNextBtn__GCpnl[disabled] {
+          opacity: 0.5;
+          cursor: not-allowed;
+      }
+  
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/Shared/header.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.header_button_div__bL7qs {
+  position: absolute;
+  bottom: -290px;
+  left: -215px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 0 1rem;
+  z-index: 1000;
+  width: 100vw;
+  height: 40px;
+  background-color: #080808;
+  background-size: cover; /* Ensures the image covers the entire area */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents tiling of the image */
+}
+
+.header_button_under_image__x04jp {
+  z-index: 20;
+  width: 100%;
+  margin: 0 1px;
+  height: 50px;
+  background-color: "#080808";
+  text-align: center;
+  display: flex; /* Flexbox for centering */
+  align-items: center; /* Vertical centering */
+  justify-content: center; /* Horizontal centering */
+}
+.header_button_under_image__x04jp:hover {
+  background-color: #ff8b12;
+  color: white;
+}
+
+.header_nav_item__bJTyu {
+  border-right: 2px solid white;
+  padding: 1px 23px;
+}
+
+.header_nav_item__bJTyu:hover {
+  color: #ff8b12;
+}
+.header_show_more_btn__ZWIvp {
+  position: relative;
+  padding: 8px 42px;
+  background: linear-gradient(to right, #fbbf24, #fcd34d, #fbbf24);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+  border: #fbbf24 2px solid;
+}
+
+.header_show_more_btn__ZWIvp:hover {
+  border: white 2px solid;
+}
+
+.header_show_more_btn__ZWIvp::before {
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.header_show_more_btn__ZWIvp:hover::before {
+  opacity: 1;
+}
+
+.header_show_more_btn__ZWIvp span {
+  position: relative;
+  z-index: 1;
+  border: 2px solid white;
+}
+
+.header_loginButton__qpcpe {
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 42px;
+}
+.header_loginButton__qpcpe:hover {
+  border: 2px solid #fbbf24;
+}
+.header_socialMediaDiv___Lpcy {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.header_iconDiv__mofi1 {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.header_headerMainAuthCheckNoSide__JL0HL {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .header_headerMainAuthCheckNoSideMobile__FX5ih {
+    display: none; /* Hide for desktop */
+  }
+  .header_headerMainAuthCheckNoSide__JL0HL {
+    display: block; /* Show for desktop */
+  }
+}
+

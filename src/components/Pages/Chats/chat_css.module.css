@@ -1,0 +1,258 @@
+
+ .chatContainer {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chatHeader {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .chatHeader h1 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .chatHeader img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .chatHistory {
+    flex: 1;
+    overflow-y: scroll;
+    padding: 15px;
+  }
+  
+  .message {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .message.right {
+    justify-content: flex-end;
+  }
+  
+  .message.left {
+    justify-content: flex-start;
+  }
+  
+  .senderAvatar {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: 5px;
+  }
+  
+  .senderInfo {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .username,
+  .timestamp {
+    font-size: 0.8em;
+    color: #aaa;
+    margin-right: 5px;
+  }
+  
+  .message p {
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: #e0e0e0;
+    color: #333;
+    display: inline-block;
+    max-width: 70%;
+  }
+  
+  .message.right p {
+    background-color: #C0C0CE;
+  }
+  
+  
+  
+  .chatInput {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .chatInput input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: black;
+  }
+  
+  .chatInput button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+
+  .chatContainer {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    background: #f5f5f5;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  .chatHistory {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 20px;
+  }
+  
+  .message {
+    margin-bottom: 20px;
+    max-width: 70%;
+    position: relative;
+  }
+  
+  .message.left {
+    margin-right: auto;
+  }
+  
+  .message.right {
+    margin-left: auto;
+    text-align: right;
+  }
+  
+  .message p {
+    padding: 10px 15px;
+    border-radius: 15px;
+    margin: 5px 0;
+    display: inline-block;
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+  
+  .message.left p {
+    background: white;
+    border: 1px solid #e0e0e0;
+  }
+  
+  .message.right p {
+    background: #fb551c;
+    color: white;
+    text-align: left;
+  }
+  
+  .senderAvatar {
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50%;
+    margin: 0 8px;
+  }
+  
+  .senderInfo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .username {
+    font-weight: bold;
+  }
+  
+  .timestamp {
+    color: #999;
+  }
+  
+  .chatInput {
+    padding: 20px;
+    background: white;
+    border-top: 1px solid #e0e0e0;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  .inputWrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+  }
+  
+  .chatInput input[type="text"] {
+    flex-grow: 1;
+    padding: 10px 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+    outline: none;
+  }
+  
+  .imageInput {
+    display: none;
+  }
+  
+  .imageInputLabel {
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 50%;
+    transition: background-color 0.2s;
+  }
+  
+  .imageInputLabel:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .imageIcon {
+    width: 24px;
+    height: 24px;
+    color: #666;
+  }
+  
+  .chatInput button {
+    padding: 10px 20px;
+    background: #fb551c;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .chatInput button:hover {
+    background: #e64d19;
+  }
+  
+  .chatInput button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .imageMessage {
+    max-width: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .sharedImage {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .imageCaption {
+    padding: 8px;
+    background: rgba(0, 0, 0, 0.05);
+    font-size: 14px;
+  }

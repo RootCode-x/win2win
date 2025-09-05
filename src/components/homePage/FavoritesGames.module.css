@@ -1,0 +1,46 @@
+@media (min-width: 992px) {
+  .favoriteGames {
+    display: none; /* Hide for desktop */
+  }
+}
+
+.custom_scrollbarX {
+  display: flex;
+  justify-content: flex-start;
+  gap: 8px;
+  overflow-x: auto; /* Enables horizontal scrolling */
+  overflow-y: hidden; /* Prevents vertical scrollbars */
+  white-space: nowrap; /* Prevents wrapping of items */
+  padding: 10px 0; /* Adds some spacing */
+
+  /* Slim and Stylish Scrollbar */
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #888 transparent; /* For Firefox */
+}
+
+.custom_scrollbarX::-webkit-scrollbar {
+  height: 2px; /* Adjust the height of the scrollbar */
+}
+
+.custom_scrollbarX::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners */
+}
+
+.custom_scrollbarX::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Darker color on hover */
+}
+
+.custom_scrollbarX::-webkit-scrollbar-track {
+  background: transparent; /* Transparent track */
+}
+
+.item_containerX {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+}
+.item_containerX:hover {
+  background-color: #1f2721;
+}

@@ -1,0 +1,55 @@
+/* components/Marquee.module.css */
+.marquee {
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  background-color: #080808;
+  color: white;
+
+  display: flex;
+  align-items: center;
+}
+.iconStyle {
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 10px;
+  color: #ff8a14;
+}
+
+.marqueeContent {
+  display: inline-block;
+  padding-left: 100%;
+  font-weight: bold;
+  animation: marquee 25s linear infinite;
+  font-size: 15px;
+}
+
+.marquee:hover .marqueeContent {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.icon {
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+
+.icon img {
+  width: 4px; /* Adjust size as needed */
+  height: 4px; /* Adjust size as needed */
+  background-size: cover;
+}
+
+@media screen and (min-width: 992px) {
+  .marquee {
+    padding: 5px 0;
+  }
+}

@@ -1,0 +1,80 @@
+@media (min-width: 992px) {
+  .exclusive {
+    display: none; /* Hide for desktop */
+  }
+}
+
+.custom_scrollbar {
+  display: flex;
+  justify-content: flex-start;
+  gap: 8px;
+  overflow-x: auto; /* Enables horizontal scrolling */
+  overflow-y: hidden; /* Prevents vertical scrollbars */
+  white-space: nowrap; /* Prevents wrapping of items */
+  padding: 10px 0; /* Adds some spacing */
+  background-color: #000000; /* Background color */
+
+  /* Slim and Stylish Scrollbar */
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #888 transparent; /* For Firefox */
+}
+
+.custom_scrollbar::-webkit-scrollbar {
+  height: 2px; /* Adjust the height of the scrollbar */
+}
+
+.custom_scrollbar::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners */
+}
+
+.custom_scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Darker color on hover */
+}
+
+.custom_scrollbar::-webkit-scrollbar-track {
+  background: transparent; /* Transparent track */
+}
+
+.item_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50px;
+  flex-shrink: 0;
+  padding: 10px 6px;
+}
+.item_container:hover {
+  background-color: #1f2721;
+}
+.item_label {
+  font-size: 11px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.subItems_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  row-gap: 2px; /* Space between grid items */
+  background-color: #080808;
+  width: 308px;
+}
+
+.sub_item_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer; /* Indicates clickable items */
+  background-color: #292927;
+
+  padding: 1px; /* Optional: Padding inside items */
+  width: 75px;
+  height: 75px;
+}
+
+.sub_item_label {
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+}

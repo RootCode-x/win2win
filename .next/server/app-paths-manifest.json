@@ -1,0 +1,7 @@
+{
+  "/page": "app/page.js",
+  "/(common)/login/page": "app/(common)/login/page.js",
+  "/(common)/create-acount/page": "app/(common)/create-acount/page.js",
+  "/(common)/promotions/page": "app/(common)/promotions/page.js",
+  "/not-found": "app/not-found.js"
+}

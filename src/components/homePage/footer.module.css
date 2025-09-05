@@ -1,0 +1,50 @@
+.footerContainer {
+  padding: 20px 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.logoSection {
+  margin-bottom: 15px;
+}
+
+.textSection {
+  font-size: 12px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  text-align: start;
+  color: #cccccc;
+  padding: 2px 4px;
+  word-spacing: 1px;
+}
+
+.linksSection a {
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.linksSection a:hover {
+  text-decoration: none;
+  color: #ff8a14;
+}
+
+.copyrightSection {
+  font-size: 14px;
+  color: #ffffff80;
+  text-align: right;
+}
+
+.footerContainerForDesktop {
+  display: none;
+}
+@media (min-width: 992px) {
+  .footerContainerForDesktop {
+    display: flex;
+  }
+
+  .textSection {
+    font-size: 13.5px;
+    padding: 0;
+  }
+}

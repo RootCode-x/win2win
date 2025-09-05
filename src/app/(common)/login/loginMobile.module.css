@@ -1,0 +1,166 @@
+/* login.module.css */
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #000;
+  margin-top: -50px;
+}
+
+.loginHeader {
+  margin-bottom: 20px;
+}
+
+.loginLogo {
+  color: #fff;
+  font-size: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.loginLogoSpan {
+  color: #ffa500;
+}
+
+.loginForm {
+  width: 90%;
+  max-width: 400px;
+
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.formGroup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 4px;
+  background-color: #1f1f1d;
+
+  padding: 8px 15px;
+}
+
+.formGroupLabel {
+  color: white;
+  font-size: 13.52px;
+}
+
+.loginInput {
+  width: 100%;
+  padding: 6px 6px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+}
+.loginInput::placeholder {
+  color: rgb(161, 155, 155); /* Change the placeholder color to red */
+  opacity: 1; /* Ensure it's fully visible */
+  font-size: 12px;
+}
+
+.passwordContainer {
+  position: relative;
+  width: 100%;
+}
+
+.showPasswordButton {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.forgotPassword {
+  margin: 20px auto;
+  text-align: right;
+}
+
+.forgotPasswordLink {
+  color: #ffa500;
+  text-decoration: none;
+  font-size: 12px;
+  border: 2px solid #ff8a14;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+.forgotPasswordLink:hover {
+  text-decoration: underline;
+}
+
+.loginButton {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff8a14;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.loginButton:hover {
+  background-color: #d66f08;
+}
+
+.signup {
+  margin-top: 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+}
+
+.signupLink {
+  color: green;
+  text-decoration: none;
+}
+
+.signupLink:hover {
+  text-decoration: underline;
+}
+
+.verificationSection {
+  margin-top: 4px;
+  background-color: #1f1f1d;
+  padding: 8px 15px;
+  font-size: 12px;
+}
+.verificationRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.verificationInput::placeholder {
+  color: white;
+  opacity: 1; /* Ensure it's fully visible */
+  font-size: 12px;
+}
+.verificationCode {
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  padding: 2px 8px;
+  font-weight: bolder;
+}
+.loginDesktop {
+  display: none;
+}
+.loginMobile {
+  display: block;
+}
+@media screen and (min-width: 992px) {
+  .loginDesktop {
+    display: block;
+  }
+  .loginMobile {
+    display: none;
+  }
+}

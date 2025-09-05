@@ -1,0 +1,203 @@
+.image_div {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.image_top {
+  background-color: #ff8a14;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.image_container {
+  max-width: 1000px;
+  margin: 10px auto;
+  display: none; /* Hide by default */
+}
+
+/* For mobile view */
+.image_containerMob {
+  display: block; /* Show for mobile */
+  margin-top: 20px;
+  padding-left: 8px;
+  background-color: green;
+}
+
+/* Styles for desktop */
+@media (min-width: 992px) {
+  .image_container {
+    display: block; /* Show for desktop */
+  }
+
+  .image_containerMob {
+    display: none; /* Hide for desktop */
+  }
+}
+
+/* Add this in a CSS file or a style tag */
+.content {
+  overflow: hidden;
+  height: 12rem; /* Adjust the height as needed */
+  transition: height 0.3s ease;
+}
+
+.expanded {
+  height: auto;
+}
+
+.collapsed {
+  height: 12rem; /* Collapsed height */
+}
+
+.toggleButton {
+  color: #007bff; /* Replace with your main color */
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  background: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0.5rem;
+}
+
+.toggleButton:hover {
+  color: #0056b3; /* Adjust hover color */
+}
+
+.button_div {
+  display: flex;
+  justify-content: center;
+}
+
+/* service style start here  */
+
+.service_img_div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.serviceContainer {
+  display: flex;
+  display: none;
+  align-items: center;
+  gap: 80px;
+  padding: 20px 10px;
+  border-bottom: rgb(48, 45, 45) 0.2px solid;
+}
+
+.serviceItem {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.textContent {
+  text-align: left;
+  margin-top: 30px;
+}
+
+.textContentEx {
+  text-align: left;
+}
+.title {
+  font-size: 16px;
+  color: #dedede;
+}
+
+.subtitle {
+  font-size: 12px;
+  color: #999999;
+  margin: 0;
+}
+.title,
+.subtitle {
+  margin-bottom: 6px;
+}
+.button {
+  font-size: 12px;
+}
+
+.button:hover {
+  text-decoration: none;
+  color: #ff8a14;
+}
+
+.titleEx {
+  font-size: 16px;
+  color: #dedede;
+}
+
+/* button style start here */
+
+.show_more_btn {
+  position: relative;
+  padding: 3px 18px;
+  background-color: #ffc107;
+  border: none;
+  border-radius: 4px;
+  color: black;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+}
+
+.show_more_btn:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.show_more_btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to right, #fbbf24, #fcd34d, #fbbf24);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.show_more_btn:hover::before {
+  opacity: 1;
+}
+
+.show_more_btn span {
+  position: relative;
+  z-index: 1;
+}
+
+.headerStyleTop {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  color: #dedede;
+  padding: 0 10px;
+}
+.headerStyle {
+  font-weight: bold;
+  font-size: 14px;
+  color: #999999;
+}
+
+.sectionStyle {
+  margin-bottom: 2rem;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #999999;
+}
+
+/* //-------------------------- */
+@media (min-width: 992px) {
+  .headerStyleTop {
+    padding: 0;
+  }
+  .serviceContainer {
+    display: flex;
+  }
+}

@@ -1,0 +1,101 @@
+.menuItem i {
+    font-size: 20px;
+    margin-right: 2px;
+  }
+  
+  .walletInfo i {
+    font-size: 24px;
+    color: #000;
+  }
+  
+  /* Sidebar Container */
+  .sidebar {
+    background-color: #216d3feb;
+    padding: 15px;
+    border-radius: 10px;
+    color: #fcff00;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Profile Section */
+  .profileSection {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .profileInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .profileImg {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  
+  .profileText h4 {
+    color: #fcff00;
+    font-weight: 900;
+    margin: 10px 0 5px;
+  }
+  
+  /* Wallet Section */
+  .walletSection {
+    background-color: #fcff00;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .walletSection span {
+    font-size: 16px;
+    color: #000;
+  }
+  
+  .walletInfo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .walletInfo h4 {
+    font-weight: bold;
+    margin-right: 10px;
+       color: #000;
+  }
+  
+  /* Menu Grid */
+  .menuGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    margin-top: 10px;
+  }
+  
+  .menuItem {
+    background-color: #080f25;
+    color: #fcff00;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 12px;
+    transition: 0.3s;
+    height: 70px;
+    width: 100px;
+  }
+  
+  .menuItem:hover {
+    background-color: #333;
+    color: white;
+  }
+  
+  
+  
